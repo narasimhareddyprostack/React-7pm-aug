@@ -1,0 +1,13 @@
+What is React JS?
+
+Its a open source Library to build Rich User Interfaces.
+- To develop SPA 
+- To Manager UI State effectively 
+
+- Develop and maintain by Facebook.
+
+-Released 2013.
+-current Version 17.
+
+
+Deviding UI - multiple reusable component?
