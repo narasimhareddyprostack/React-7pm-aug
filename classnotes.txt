@@ -11,3 +11,9 @@ Its a open source Library to build Rich User Interfaces.
 
 
 Deviding UI - multiple reusable component?
+
+How we are execting JS?
+1. Browser (Js Engine)
+2. Node Js (Node - JS Runtime Env)
+
+ a) node 2)npm 
