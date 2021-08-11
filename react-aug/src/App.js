@@ -1,12 +1,13 @@
 import React from "react";
-import Product from "./components/Product";
-function App() {
-  return (
-    <div>
-      <h2>App Component....</h2>
-      <hr />
-      <Product />
-    </div>
-  );
+import Navbar from "./components/Navbar";
+class App extends React.Component {
+  render() {
+    return (
+      <>
+        <Navbar />
+      </>
+    );
+  }
 }
+
 export default App;
