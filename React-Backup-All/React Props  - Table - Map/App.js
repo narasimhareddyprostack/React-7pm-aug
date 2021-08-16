@@ -1,11 +1,14 @@
 import React from "react";
 import CompA from "./components/Props/CompA";
-import Product from "./components/Props/Product";
+import Navbar from "./components/Navbar/Navbar";
+
+import Employee from "./Table/Employee";
 
 function App() {
   return (
     <div>
-      <Product />
+      <Navbar />
+      <Employee />
     </div>
   );
 }
