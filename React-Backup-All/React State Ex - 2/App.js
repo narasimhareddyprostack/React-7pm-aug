@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
-import Registration from "./components/Form/Registration";
+import Product from "./components/Product";
 class App extends Component {
   render() {
     return (
       <div>
         <Navbar />
-        <Registration />
+        <Product />
       </div>
     );
   }
