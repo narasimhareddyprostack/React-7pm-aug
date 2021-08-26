@@ -80,7 +80,7 @@ class Registration extends React.Component {
                       <div class="input-group" id="show_hide_password">
                         <input class="form-control" type={this.state.type} />
                         <div className="input-group-addon">
-                          <a href="/home">
+                          <a href="">
                             <i
                               class="fa fa-eye-slash"
                               aria-hidden="true"
