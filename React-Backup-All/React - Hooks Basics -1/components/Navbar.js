@@ -6,7 +6,7 @@ class Navbar extends Component {
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <Link className="navbar-brand" to="/home">
-            React - HTTP API
+            Navbar
           </Link>
           <button
             className="navbar-toggler"
@@ -26,10 +26,19 @@ class Navbar extends Component {
                   Home
                 </Link>
               </li>
-
               <li className="nav-item">
-                <a className="nav-link" href="/users">
-                  Users
+                <Link className="nav-link" to="/registration">
+                  Registration Form
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/employee">
+                  Employee
+                </Link>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/test">
+                  Employee
                 </a>
               </li>
             </ul>

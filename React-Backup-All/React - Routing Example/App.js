@@ -2,8 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/Home/Home";
-import User from "./components/Users/User";
-
+import Registration from "./components/Form/Registration";
 class App extends React.Component {
   render() {
     return (
@@ -12,7 +11,7 @@ class App extends React.Component {
           <Navbar />
           <Switch>
             <Route path="/home" component={Home} />
-            <Route path="/users" component={User} />
+            <Route path="/registration" component={Registration} />
           </Switch>
         </Router>
       </React.Fragment>
