@@ -28,7 +28,7 @@ class Navbar extends Component {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="/movies">
+                <a className="nav-link" href="/users">
                   Users
                 </a>
               </li>
