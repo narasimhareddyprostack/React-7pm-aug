@@ -1,7 +1,9 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import ContactApp from "./components/Contact/ContactApp";
+import Home from "./components/Home/Home";
+import User from "./components/Users/User";
+
 class App extends React.Component {
   render() {
     return (
@@ -9,7 +11,8 @@ class App extends React.Component {
         <Router>
           <Navbar />
           <Switch>
-            <Route path="/contact" component={ContactApp} />
+            <Route path="/home" component={Home} />
+            <Route path="/movies" component={User} />
           </Switch>
         </Router>
       </React.Fragment>
