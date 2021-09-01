@@ -1,0 +1,56 @@
+Problem Statement:
+------------------------
+React Component State 
+-- State : componnet own data 
+How to update componnet state?
+- this.setState({})
+=================================
+How to access another componnet Data?
+using props?
+But props  are immutable?
+
+How  to access & update another component data?
+In React - it is not possbile.
+We have to use - State management. 
+Best State Management Tools/JS Libraries 
+
+Redux 
+Mobx
+Recoil
+Hookstate
+Akita 
+ 
+ 
+How  to access & update another component data?
+
+-- Keep your component data as global object.
+
+Redux - Predictable State container 
+
+React View -- Redux action --> Reducer -> Store -> View
+----------------------------------------------------------
+React view -- Dispatch an Action
+			  Action invokes  --- Reducer 
+								  - update/create new store 
+Store -- reflect back to view.						
+
+How Setup
+---------------
+Required Js Packages
+1. redux
+2. react-redux
+3. redux-devtool-extension 
+
+To Debug Redux store 
+   - Crome extension: Redux tool extension
+-----------------------------------------
+Step 1: React View/Component - dispatch an action
+Step 2: action invokes reducer 
+Step 3: Reducer is going to update redux store based action type/
+
+Step 4: Once store is update , it will reflect back view. 
+ 
+
+
+		  
+
