@@ -48,7 +48,7 @@ Step 1: React View/Component - dispatch an action
 Step 2: action invokes reducer 
 Step 3: Reducer is going to update redux store based action type/
 
-Step 4: Once store is update , it will reflect back view. 
+Step 4: Once store is updated , it will reflect back view. 
  
 
 
