@@ -1,21 +1,20 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Message from "./components/Message/Message";
-import { Provider } from "react-redux";
-import { store } from "./redux/store";
+import DigitalWatch from "./components/Time/DigitalWatch";
+import Form from "./components/Form/Form";
+import Digital from "./components/Time/Digital";
 class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Provider store={store}>
-          <Router>
-            <Navbar />
-            <Switch>
-              <Route path="/message" component={Message} />
-            </Switch>
-          </Router>
-        </Provider>
+        <Router>
+          <Navbar />
+          <Switch>
+            <Route path="/time" component={Digital} />
+            <Route path="/form" component={Form} />
+          </Switch>
+        </Router>
       </React.Fragment>
     );
   }

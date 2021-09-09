@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 let Message = () => {
   let dispatch = useDispatch();
   let message = useSelector((state) => {
-    return state;
+    return state.message;
   });
   let gmHandler = () => {
     //dispatch an action
